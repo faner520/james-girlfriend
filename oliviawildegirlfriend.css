@@ -1,4 +1,45 @@
-h1 {text-align: center;}
-/*
-img {width: 2050px;} */
-img {width: 1000px;} div {text-align: center;}
+body {
+  background-color: #DDD;
+  color: #555;
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  width: 75%;
+  height: 75%;
+  border-radius: 10px;
+  border: 10px double blue;
+}
+
+form {
+  text-align: center;
+  margin-top: 25px;
+}
+
+input {
+  margin: 0 10px;
+}
+
+input[type="submit"] {
+  font-size: 1.33em;
+  font-weight: bold;
+  color: #444;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input[type="text"] {
+  font-size: 1.3em;
+  color: #333;
+  border-radius: 5px;
+  background-color: #DDD;
+  border-width: thick;
+}
