@@ -1,4 +1,4 @@
-window.onload=function(){alert("Hello James");
+window.onload=function(){alert("James Sucks");
 document.getElementsByTagName("form")[0].onclick=respond;
 };
 
